@@ -1,6 +1,6 @@
 # hello4.py
 def hello():
-    print "Hello, world!"
+    print("Hello, world!")
 
 def test():
     hello()

@@ -7,10 +7,10 @@ database = [
     ['jones',   '9843']
 ]
 
-username = raw_input('User name: ')
-pin = raw_input('PIN code: ')
+username = input('User name: ')
+pin = input('PIN code: ')
 
 if [username, pin] in database:
-    print 'Access granted.'
+    print( 'Access granted.')
 else:
-    print 'Access denied!'
+    print ('Access denied!')
